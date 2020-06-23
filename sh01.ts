@@ -86,7 +86,7 @@ namespace SH01 {
      * Key Released Event
      */
     //% block="on %key Key Released"
-    export function onKeyReleased(key: SH01_KEY, body: () => void): void {
+    /*export function onKeyReleased(key: SH01_KEY, body: () => void): void {
         startParallel(function () {
             while (true) {
                 if (rk <= 32) {
@@ -103,7 +103,7 @@ namespace SH01 {
                 basic.pause(_interval)
             }
         })
-    }
+    }*/
 
     /**
      * If one key has been pressed.
